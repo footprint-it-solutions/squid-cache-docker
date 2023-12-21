@@ -15,3 +15,5 @@ export MAJOR=6
 export MINOR=5
 docker build . --build-arg SQUID_MAJOR_VERSION=$MAJOR --build-arg SQUID_MINOR_VERSION=$MINOR -f alpine.Dockerfile -t squid-cache:$MAJOR.$MINOR-alpine
 ```
+
+The Alpine image is availble on [Docker Hub](https://hub.docker.com/repository/docker/drewhemm/squid-cache/).
